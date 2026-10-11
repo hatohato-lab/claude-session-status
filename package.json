@@ -1,0 +1,26 @@
+{
+  "name": "claude-session-status",
+  "displayName": "Claude セッションの状態",
+  "description": "Claude Code の各セッションの状態（作業中・入力待ち・答えが出た）を、画面の一番下に色付きで並べる",
+  "version": "0.0.1",
+  "publisher": "hatohato-local",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.94.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "claudeSessionStatus.refresh",
+        "title": "Claude セッションの状態: 表示を更新"
+      }
+    ]
+  }
+}

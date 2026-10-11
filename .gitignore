@@ -1,0 +1,2 @@
+# 包み（.vsix）は build_vsix.py で作るので、リポジトリには入れない
+dist/
